@@ -1,5 +1,5 @@
-# radiolysis
-[![License]([https://img.shields.io/badge/License-Apache_2.0-blue.svg](https://img.shields.io/badge/License-CC_BY_NC-blue.svg))](https://creativecommons.org/licenses/by-nc/4.0/deed.en)
+# Radiolysis
+Fast and steamlined monte carlo modelling to assess geologic hydrogen and helium from lithogeochemistry
 
 ## Description
 
@@ -10,8 +10,9 @@
 - ggplot
 - dplyr
 
-## installation
-
+## Installation
+```
 install.packages("devtools")
-install_github("NRCAN_h2Rad")
+install_github("NRCAN/h2Rad")
 library(Radiolysis)
+```
