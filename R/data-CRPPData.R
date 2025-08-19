@@ -1,0 +1,32 @@
+#' @title The Canadian Rock Physical Property Dataset (CRPPData)
+#'
+#' @description This is a summarized verision of The Canadian Rock Physical Property Dataset (CRPPData) of Enkin (2018). It it is summarized by the LithGroup and LithCat variables of the original data. Summarization was done by a "group_by() %>% summarize()" for use in Radiolysis package monteProd() function. monteProd() will join physical rock property data to samples with a lithology and without rock property data (see documentation for monteProd() and example dataframes). This join will be done based on a direct match of the Lithology column of this dataset.
+#'     Original publication: Enkin, R. J. (2018). The Canadian Rock Physical Property Database: first public release. Geological Survey of Canada, Open File, 8460, 68. Natural Resources Canada..
+#'     Original data is available at: https://ostrnrcan-dostrncan.canada.ca/entities/publication/c4c0cede-365c-4c87-8077-8e045e874de6
+#'
+#' \itemize{
+#'   \item Lithology. Lithology of Enkin (2018)
+#'   \item num. number of samples in distributinos
+#'   \item porMin. minimum porosity value of distribution
+#'   \item porMax. maximum porosity value of distribution
+#'   \item porMean. mean prosoity value of distribution
+#'   \item porSD. standard deviation of porosity distribution
+#'   \item porQ25. first quantile of porosity distirbution
+#'   \item porQ50. second quantile of of porosity distirbution
+#'   \item porQ75. thrid quantile of porosity distirbution
+#'   \item rockDenMin. minimum value of rock density distribution
+#'   \item rockDenMax. maximum value of rock density distribution
+#'   \item rockDenMean. mean value of rock density distribution
+#'   \item rockDenSD. standard deviation of rock density distribution
+#'   \item rockDenQ25. first quantile of rock density distribution
+#'   \item rockDenQ50. second quantile of rock density distribution
+#'   \item rockDenQ75. third quantile of rock density distribution
+#' }
+#'
+#' @docType data
+#' @name CRPPData
+#' @usage data(CRPPData)
+#' @references Radiolysis.
+#' @format A dataframe formatted for use in monteProd() and general data exploration.
+#' @keywords datasets
+NULL
