@@ -25,3 +25,5 @@ library(Radiolysis)
 
 ## License
 The Radiolysis package is published under CC BY-NC license. For commercial licensing opportunities regarding the 'Radiolysis' package, please contact Natural Resources Canada’s Intellectual Property Division at: ipd-dpi@nrcan-rncan.gc.ca 
+
+© His Majesty the King in Right of Canada as represented by the Minister of Natural Resources, 2025 | Sa Majesté le Roi du chef du Canada représenté par le Ministre des Ressources naturelles, 2025
