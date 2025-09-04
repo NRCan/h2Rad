@@ -20,7 +20,7 @@ authors:
 affiliations:
  - name: Natural Resources Canada - Geological Survey of Canada - Calgary
    index: 1
-- name: University of Ottawa, Canada
+ - name: University of Ottawa, Canada
    index: 2
  - name: University of Toronto, Canada
    index: 3
